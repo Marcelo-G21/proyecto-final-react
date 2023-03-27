@@ -53,15 +53,3 @@
   }
   
 }
-
-@media screen and (max-width: 450px) {
-    .description_container{
-        font-size: 13px;
-      }
-}
-
-@media screen and (max-width: 400px) {
-  .description_container{
-      font-size: 8px;
-    }
-}
