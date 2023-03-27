@@ -8,7 +8,8 @@ export class catAPI {
         }
         try{
             const resp = await axios.get(`${BASE_URL}${breed}`,
-            { 'headers': {'X-Api-Key': API_KEY}});
+            {   
+                'headers': {'X-Api-Key': API_KEY}});
             return resp.data;
         }catch(e){
             console.log(e);
