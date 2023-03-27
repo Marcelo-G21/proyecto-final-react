@@ -1,11 +1,12 @@
 import { useState, useEffect, useCallback } from 'react'
 import Logo from './components/Logo/Logo'
-import { catAPI } from './api/cats'
-import logoImg from "./assets/images/logo.png"
-import s from './style.module.css';
 import SearchBar from './components/SearchBar/SearchBar';
 import CatBreedDetail from './components/CatBreedDetail/CatBreedDetail';
 import NotFound from './components/NotFound/NotFound';
+import { catAPI } from './api/cats'
+import logoImg from "./assets/images/logo.png"
+import s from './style.module.css';
+
 
 function App() {
 
@@ -36,8 +37,8 @@ function App() {
 
       <div className={s.cat_breed_detail_container}>
         {catBreed ?
-        <CatBreedDetail catBreed={catBreed} /> :
-        <NotFound />}
+          <CatBreedDetail catBreed={catBreed} /> :
+          <NotFound />}
       </div>
 
     </div>

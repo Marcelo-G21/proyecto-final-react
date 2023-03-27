@@ -1,4 +1,3 @@
-import React from 'react'
 import { Search as SearchIcon } from "react-bootstrap-icons";
 import s from "./style.module.css";
 
@@ -13,10 +12,10 @@ const SearchBar = ({ onSubmit }) => {
         <div className={s.searchbar}>
             <SearchIcon size={27} className={s.icon} />
             <input
-            type="text"
-            onKeyUp={submit}
-            className={s.input}
-            placeholder="Search a cat breed! (=^･ω･^=) "
+                type="text"
+                onKeyUp={submit}
+                className={s.input}
+                placeholder="Search a cat breed! (=^･ω･^=) "
             />
         </div>
     )

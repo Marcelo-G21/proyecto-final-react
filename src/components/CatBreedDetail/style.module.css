@@ -40,23 +40,22 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-}
+  }
 
-.image_container {
+  .image_container {
     max-height: 50%;
     max-width: 60%;
     padding: 10px;
-}
+  }
 
-  .description_container{
+  .description_container {
     font-size: 2.5vw;
     max-height: 50%;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-  .description_container{
+  .description_container {
     font-size: 3.3vw;
   }
 }
