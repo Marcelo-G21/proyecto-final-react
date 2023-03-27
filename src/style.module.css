@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.searchbar {
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.cat_breed_detail_container {
+    font-size: 25px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .searchbar {
+        margin-left: -10px;
+        
+    }
+    .logo {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .searchbar {
+        margin-left: -30px;
+        
+    }
+}
